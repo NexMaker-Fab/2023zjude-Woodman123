@@ -34,7 +34,7 @@ const students = [
         "year": 1,
     },
     {
-        "username": "Jiang Jiaxiang",
+        "username": "You Jiaxiang",
         "firstname": "Jiaxiang",
         "lastname": "You",
         "category": "Design",
