@@ -7,7 +7,7 @@ const advisors = [
     {
         firstname: 'Bob',
         lastname: 'Wu',
-        // affiliation: 'Zero Day Initiative'
+        affiliation: 'ProFabX founder'
     },
 ];
 
