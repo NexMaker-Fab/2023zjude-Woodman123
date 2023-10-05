@@ -78,9 +78,9 @@ const config = {
                     title: 'Woodman 123 Team', logo: {
                         alt: 'My Site Logo', src: 'img/logo.svg', width: 17
                     }, items: [{
-                        href: 'https://design-engineering.littleor.cn', label: '官网', position: 'left'
+                        href: 'https://design-engineering.littleor.cn', label: 'Homepage', position: 'left'
                     }, {
-                        href: 'https://github.com/Littleor/DesignEngineering/issues', label: '反馈', position: 'left'
+                        href: 'https://github.com/Littleor/DesignEngineering/issues', label: 'Feedback', position: 'left'
                     }, {
                         href: 'https://github.com/Littleor/DesignEngineering', label: 'GitHub', position: 'right',
                     },],
