@@ -75,6 +75,10 @@ const MENU_ITEMS = [
     {
         label: "Projects",
         href: "https://github.com/Littleor"
+    },
+    {
+        label: "Docs",
+        href: "https://design-engineering.littleor.cn/docs/"
     }
 ]
 
