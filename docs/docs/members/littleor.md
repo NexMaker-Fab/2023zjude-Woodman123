@@ -15,10 +15,6 @@
   - **Institution:** Zhejiang University
   - **Expected Graduation:** 2025
 
-- **Bachelor's Degree:** Bachelor of Electronic Information Engineering
-  - **Institution:** Chongqing University of Posts and Telecommunications
-  - **Graduation Year:** 2023
-
 ## Research Interests
 
 - Deep Learning
@@ -34,5 +30,5 @@
   3. "UI Layers Group Detector: Grouping UI Layers via Text Fusion and Box Attention," CICAI 2022 (4/7)
 
 ### Patents
-  - "A Controllable Front-End and Back-End Secure Communication Method," Granted, First Inventor, Patent Number: 112311531A
+  - "A Controllable Front-End and Back-End Secure Communication Method," Granted, Patent Number: 112311531A (1/2) 
 
