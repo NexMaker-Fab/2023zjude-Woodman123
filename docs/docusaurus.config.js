@@ -76,7 +76,7 @@ const config = {
 
                 navbar: {
                     title: 'Woodman 123 Team', logo: {
-                        alt: 'My Site Logo', src: 'img/logo.svg', width: 17
+                        alt: 'My Site Logo', src: 'img/logo.svg', width: 30
                     }, items: [{
                         href: 'https://design-engineering.littleor.cn', label: 'Homepage', position: 'left'
                     }, {

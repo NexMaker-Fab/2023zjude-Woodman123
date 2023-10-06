@@ -17,8 +17,12 @@ const sidebars = {
     doc: [{
         type: 'category', label: 'About', items: ['about/team'],
     }, {
-        type: 'category', label: 'Members', items: ['members/littleor'],
-    },]
+        type: 'category', label: 'Members', items: ['members/littleor',
+            'members/ga', 'members/lk', 'members/yjy', 'members/yjx'],
+    }, {
+        type: 'category', label: 'Projects', items: ['projects/website'],
+    }
+    ]
 };
 
 module.exports = sidebars;
