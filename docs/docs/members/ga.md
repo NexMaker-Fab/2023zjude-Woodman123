@@ -16,13 +16,14 @@
 - Bachelor's Degree: Bachelor of Electronic Information Engineering
     - Institution: Chongqing University of Technology
     - Graduation Year: 2022
-      Research Interests
+
+## Research Interests
+
 - UX/UI
-- Digital Twin
+- HCI
 - Creative Design
 
 ## Competition
 
 1. The 4th National Youth Painting and Calligraphy Competition,the first prize of university group
 2. The 6th National College Students Industrial Design Competition, Excellence Award
-3. The 8th China International College Students’ “Internet+” Innovation and Entrepreneurship Competition, the gold award at the provincial level
