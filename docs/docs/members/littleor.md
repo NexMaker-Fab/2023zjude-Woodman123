@@ -1,6 +1,6 @@
 # Zhang Dengming
 
-<div style={{float: "right", marginLeft: 20}}><img src="https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/202310052144681.JPG" alt="Your Profile Picture" width="180"/></div>
+<div style={{float: "right", marginLeft: 20}}><img src="https://cdn.littleor.cn/assert/202310052147194.JPG" alt="Your Profile Picture" width="180"/></div>
 
 
 ## Personal Information
