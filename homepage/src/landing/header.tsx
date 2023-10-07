@@ -22,7 +22,7 @@ const LandingHeader = () => (
         <div style={{maxWidth: '100%'}}>
             <h1 className="font-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl mb-6">
                 {/*India&apos;s No.1 Ranked CTF Team & {' '}*/}
-                <div className="inline md:inline-block">Team 8 - Woodman 123 Team</div>
+                <div className="inline md:inline-block">Team 3 - Woodman 123 Team</div>
             </h1>
             <p>
                 We are a team college students from from Zhejiang University, passionate about using design to make a

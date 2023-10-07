@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-        title: 'Team 8 - Woodman 123 Team',
+        title: 'Team 3 - Woodman 123 Team',
         titleDelimiter: '-',
         tagline: 'Woodman 123 Team',
         url: 'https://design-engineering.littleor.cn',

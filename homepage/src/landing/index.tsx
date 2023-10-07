@@ -3,7 +3,7 @@ import Layout from "../layout";
 import LandingHeader from "./header";
 
 const LandingPage = () => (
-    <Layout title="Team 8 - Woodman 123 Team">
+    <Layout title="Team 3 - Woodman 123 Team">
         <LandingHeader />
     </Layout>
 );
