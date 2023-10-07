@@ -14,6 +14,9 @@
 - **Master's Degree (In Progress):** Master of Industrial Design Engineering
   - **Institution:** Zhejiang University
   - **Expected Graduation:** 2025
+- **Bachelor's Degree:** Bachelor of Electronic Information Engineering
+  - **Institution:** Chongqing University of Posts and Telecommunications
+  - **Graduation Year:** 2023
 
 ## Research Interests
 
