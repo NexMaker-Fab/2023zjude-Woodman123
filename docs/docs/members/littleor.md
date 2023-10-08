@@ -8,6 +8,8 @@
 - **Name:** Zhang Dengming
 - **Contact:** dmz@zju.edu.cn
 - **GitHub:** [Littleor](https://github.com/Littleor)
+- **Blog:** [Littleor's Blog](https://littleor.cn)
+
 
 ## Education
 
