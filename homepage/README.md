@@ -1,6 +1,6 @@
-# team bi0s Website
+# Team Woodman 123 Website
 
-The 2022 website for team bi0s, made on NextJS React.
+The website for team Woodman 123, made on NextJS React.
 
 ## Setting Up Locally
 
