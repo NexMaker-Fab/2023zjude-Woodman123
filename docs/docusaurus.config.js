@@ -22,7 +22,7 @@ const config = {
                     docs: {
                         routeBasePath: '/', // doc only mode
                         sidebarPath: require.resolve('./sidebars.js'), // Please change this to your repo.
-                        editUrl: 'https://github.com/Littleor/DesignEngineering/blob/master',
+                        editUrl: 'https://github.com/NexMaker-Fab/2023zjude-Woodman123/tree/main/docs',
                     }, blog: false, theme: {
                         customCss: require.resolve('./src/css/custom.css'),
                     },
@@ -80,9 +80,9 @@ const config = {
                     }, items: [{
                         href: 'https://design-engineering.littleor.cn', label: 'Homepage', position: 'left'
                     }, {
-                        href: 'https://github.com/Littleor/DesignEngineering/issues', label: 'Feedback', position: 'left'
+                        href: 'https://github.com/NexMaker-Fab/2023zjude-Woodman123/issues', label: 'Feedback', position: 'left'
                     }, {
-                        href: 'https://github.com/Littleor/DesignEngineering', label: 'GitHub', position: 'right',
+                        href: 'https://github.com/NexMaker-Fab/2023zjude-Woodman123', label: 'GitHub', position: 'right',
                     },],
                 },
 
@@ -94,7 +94,7 @@ const config = {
                         },],
                     }, {
                         title: 'Community', items: [{
-                            label: 'Discussions', href: 'https://github.com/Littleor/DesignEngineering/discussions',
+                            label: 'Discussions', href: 'https://github.com/NexMaker-Fab/2023zjude-Woodman123/discussions',
                         },],
                     }, {
                         title: 'More', items: [{
