@@ -14,14 +14,14 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
     // But you can create a sidebar manually
-    doc: [{
-        type: 'category', label: 'About', items: ['about/team'],
-    }, {
-        type: 'category', label: 'Members', items: ['members/littleor',
-            'members/ga', 'members/lk', 'members/yjy', 'members/yjx'],
-    }, {
-        type: 'category', label: 'Projects', items: ['projects/website'],
-    }
+    doc: [
+        'about/team',
+        {
+            type: 'category', label: 'Members', items: ['members/littleor',
+                'members/ga', 'members/lk', 'members/yjy', 'members/yjx'],
+        }, {
+            type: 'category', label: 'Projects', items: ['projects/website'],
+        }
     ]
 };
 
