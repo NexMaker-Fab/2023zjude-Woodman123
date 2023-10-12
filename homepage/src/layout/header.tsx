@@ -77,10 +77,10 @@ const MENU_ITEMS = [
     //     label: "Achievements",
     //     href: "/achievements"
     // },
-    {
-        label: "Projects",
-        href: "https://github.com/Littleor"
-    },
+    // {
+    //     label: "Projects",
+    //     href: "https://github.com/Littleor"
+    // },
     {
         label: "Docs",
         href: "https://design-engineering.littleor.cn/docs/"
