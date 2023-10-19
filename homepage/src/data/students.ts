@@ -8,6 +8,7 @@ const students = [
         "year": 1,
         "email": "dmz@zju.edu.cn",
         "github": "Littleor",
+        'homepage': 'https://littleor.cn/'
     },
     {
         "username": "Gao Ao",
