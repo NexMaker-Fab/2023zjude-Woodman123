@@ -19,6 +19,10 @@
 </a>
 </p>
 
+> Please visit [https://design-engineering.littleor.cn](https://design-engineering.littleor.cn/) to see our work.
+> 
+> The full document is in the website's `Docs`.
+
 Welcome to the official repository of **[Woodman 123 Team](https://design-engineering.littleor.cn/)**, a group of passionate students from Zhejiang University
 dedicated to using design to change the world. We are on a mission to improve lives through the fusion of AI and design.
 
