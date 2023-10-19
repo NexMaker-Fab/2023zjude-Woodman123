@@ -45,29 +45,29 @@ const TableOfContents = ({ type = 'ALL', setType, team, setTeam = (_t) => {}, ke
             {/*</li>*/}
         </ul>
     </div>
-    <div className="mt-8 mb-6">
-        <div className="font-semibold mb-2">
-            By Team
-        </div>
-        <ul>
-            <li className="mb-2">
-                {team ==='ALL' && <span>{'> '}</span>}
-                <button onClick={() => setTeam('ALL')}>All Teams</button>
-            </li>
-            <li className="mb-2">
-                {team ==='CTF' && <span>{'> '}</span>}
-                <button onClick={() => setTeam('Core')}>Core</button>
-            </li>
-            {/*<li className="mb-2">*/}
-            {/*    {team ==='Hardware' && <span>{'> '}</span>}*/}
-            {/*    <button onClick={() => setTeam('Hardware')}>Hardware</button>*/}
-            {/*</li>*/}
-            {/*<li className="mb-2">*/}
-            {/*    {team === 'Pentest' && <span>{'> '}</span>}*/}
-            {/*    <button onClick={() => setTeam('Pentest')}>Pentest</button>*/}
-            {/*</li>*/}
-        </ul>
-    </div>
+    {/*<div className="mt-8 mb-6">*/}
+    {/*    <div className="font-semibold mb-2">*/}
+    {/*        By Team*/}
+    {/*    </div>*/}
+    {/*    <ul>*/}
+    {/*        <li className="mb-2">*/}
+    {/*            {team ==='ALL' && <span>{'> '}</span>}*/}
+    {/*            <button onClick={() => setTeam('ALL')}>All Teams</button>*/}
+    {/*        </li>*/}
+    {/*        <li className="mb-2">*/}
+    {/*            {team ==='CTF' && <span>{'> '}</span>}*/}
+    {/*            <button onClick={() => setTeam('Core')}>Core</button>*/}
+    {/*        </li>*/}
+    {/*        <li className="mb-2">*/}
+    {/*            {team ==='Hardware' && <span>{'> '}</span>}*/}
+    {/*            <button onClick={() => setTeam('Hardware')}>Hardware</button>*/}
+    {/*        </li>*/}
+    {/*        <li className="mb-2">*/}
+    {/*            {team === 'Pentest' && <span>{'> '}</span>}*/}
+    {/*            <button onClick={() => setTeam('Pentest')}>Pentest</button>*/}
+    {/*        </li>*/}
+    {/*    </ul>*/}
+    {/*</div>*/}
 </div>
 );
 
