@@ -19,8 +19,17 @@ const sidebars = {
         {
             type: 'category', label: 'Members', items: ['members/littleor',
                 'members/ga', 'members/lk', 'members/yjy', 'members/yjx'],
-        }, {
-            type: 'category', label: 'Projects', items: ['projects/website'],
+        },
+        {
+            type: 'category', label: 'Daily Works', items: [
+                'works/website',
+                'works/cad',
+            ],
+        },
+        {
+            type: 'category', label: 'Projects', items: [
+                'projects/final'
+            ],
         }
     ]
 };
