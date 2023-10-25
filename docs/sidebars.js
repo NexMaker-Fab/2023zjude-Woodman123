@@ -24,8 +24,7 @@ const sidebars = {
             type: 'category', label: 'Daily Works', items: [
                 'works/website',
                 'works/cad',
-                'works/arduino-basic-output',
-                'works/arduino-iot',
+                'works/arduino',
             ],
         },
         {
