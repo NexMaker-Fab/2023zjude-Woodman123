@@ -81,12 +81,10 @@ some photos of the real thing.
     <img style={{height: 460}}  src="https://cdn.littleor.cn/assert/202310251128945.PNG"/>
 </p>
 
-
 ## More Detail
 
 Please refer to the following pages for more details:
+
 * [Arduino Basic](/works/arduino/basic)
 * [Arduino Output](/works/arduino/output)
-
-[//]: # (* [Arduino IoT]&#40;/works/arduino/iot&#41;)
-[//]: # (* [Arduino Input]&#40;/works/arduino/input&#41;)
+* [Arduino IoT](/works/arduino/iot)
