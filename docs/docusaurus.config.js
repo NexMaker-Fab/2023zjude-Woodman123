@@ -30,6 +30,9 @@ const config = {
             ),],],
         themeConfig: /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
             ({
+                tableOfContents: {
+                    maxHeadingLevel: 4,
+                },
                 colorMode: {
                     respectPrefersColorScheme: true
                 },
@@ -80,7 +83,9 @@ const config = {
                     }, items: [{
                         href: 'https://design-engineering.littleor.cn', label: 'Homepage', position: 'left'
                     }, {
-                        href: 'https://github.com/NexMaker-Fab/2023zjude-Woodman123/issues', label: 'Feedback', position: 'left'
+                        href: 'https://github.com/NexMaker-Fab/2023zjude-Woodman123/issues',
+                        label: 'Feedback',
+                        position: 'left'
                     }, {
                         href: 'https://github.com/NexMaker-Fab/2023zjude-Woodman123', label: 'GitHub', position: 'right',
                     },],

@@ -1,10 +1,10 @@
 ---
-title: Arduino - ALL IN ONE
+title: Basic
 ---
 
 import ReactPlayer from "react-player"
 
-# Arduino: ALL IN ONE
+# Arduino: Basic
 
 :::tip
 
@@ -13,85 +13,18 @@ after intense internal discussions. This means that we are **unable to use [Tink
 simulation, because **we don't use any Arduino Board & Arduino IDE**. Instead, we will provide more photos of physical
 objects.
 
-What's more, we will be completing **all** the Arduino related assignments here.
-
 :::
 
-## Preview
-
-### Arduino Basic & Output
-
-#### Video
-
-This is our demo video, we use the `STM32F103C8T6` development board to control the LED light and motor, and display
-some
-information on the OLED screen.
-
-<div style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    width: "100%",
-  }}>
-    <ReactPlayer width="360px" height="480px"  controls url="https://cdn.littleor.cn/assert/202310251012413.mp4" />
-</div>
-
-#### Image
-
-Since we don't use an Arduino, we can't provide [TinkerCad](https://www.tinkercad.com/) screenshots, so we've provided
-some photos of the real thing.
-
-<p style={{
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    overflow: 'hidden',
-}}>
-    <img style={{height: 460}} src="https://cdn.littleor.cn/assert/202310251121492.png"/>
-</p>
-
-### Arduino IoT & Input
-
-#### Video
-
-This is our demo video, we use the `ESP32-S` development board to control the LED light, RGB light, and get indoor
-environment information. Besides, we developed a **[web page](https://iot-demo.littleor.cn/)** to **remote control** the
-LED light and RGB light, and get the indoor
-environment information.
-
-<div style={{
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    width: "100%",
-  }}>
-    <ReactPlayer width="360px" height="480px"  controls url='https://cdn.littleor.cn/assert/202310251056606.mp4' />
-</div>
-
-#### Image
-
-Since we don't use an Arduino, we can't provide [TinkerCad](https://www.tinkercad.com/) screenshots, so we've provided
-some photos of the real thing.
-
-<p style={{
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    overflow: 'hidden',
-}}>
-    <img style={{height: 460, marginRight: "20px"}} src="https://cdn.littleor.cn/assert/202310251127002.png"/>
-    <img style={{height: 460}}  src="https://cdn.littleor.cn/assert/202310251128945.PNG"/>
-</p>
-
-## Arduino Basic
-
-### Open Source Project: LittleAR
+## Open Source Project: LittleAR
 
 LittleAR is an open-source DIY AR glasses project designed for makers, students, and enthusiasts. It is a versatile and
 easy-to-use device that allows users to create their own augmented reality glasses. This project is divided into two
 main parts: OSAR and LittleAR.
+<p>
+<iframe src="//player.bilibili.com/player.html?aid=954467995&bvid=BV1JW4y1X7Uz&cid=1154721281&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" style={{width: '100%', height: "600px"}} allowfullscreen="true"></iframe>
+</p>
 
-#### Introduction
+### Introduction
 
 LittleAR is a more accessible and beginner-friendly version of the AR glasses. It is designed for makers and students
 who are new to DIY projects and want to get started with AR technology. LittleAR is easy to build and offers a range of
@@ -101,27 +34,32 @@ features, such as:
 2. Learning and memorizing vocabulary
 3. Creating reminders
 
-#### Our Focus
+![LittleAR](https://cdn.littleor.cn/assert/202310261428268.jpg)
+
+### Our Focus
 
 * The AR is a interesting interaction between the real world and the virtual world.
 * The AR glasses are designed to be affordable, making them accessible to a wide range of users.
 
-#### Conclusion
+### Conclusion
 
 LittleAR is an exciting and accessible project that allows users to explore the world of augmented reality. Whether
 you're a seasoned maker or just starting out, this project offers a fun and educational way to dive into the world of AR
 technology.
 
-### Code Method - Platform IO
+## Code Method: PlatformIO
 
-#### Introduction
+### Introduction
 
-PlatformIO is a powerful and open-source ecosystem for IoT (Internet of Things) and embedded systems development. It is
+[PlatformIO](https://PlatformIO.org) is a powerful and open-source ecosystem for IoT (Internet of Things) and embedded
+systems development. It is
 designed to simplify the process of building, testing, and deploying code for various microcontrollers and development
 boards. The platform supports a wide range of popular boards and microcontrollers, making it an ideal choice for
 developers working on diverse projects.
 
-#### Install
+![PlatformIO](https://cdn.littleor.cn/assert/202310261427488.jpg)
+
+### Install
 
 To get started with PlatformIO, you'll need to install it on your computer. The installation process is straightforward
 and can be done using the following steps:
@@ -131,19 +69,21 @@ and can be done using the following steps:
 
 2. Install PlatformIO: Open a terminal or command prompt and run the following command to install PlatformIO:
 
-```
+```bash
 pip install platformio
 ```
 
 3. Verify the installation: To ensure that PlatformIO is installed correctly, run the following command:
 
-```
+```bash
 pio --version
 ```
 
 You should see the version number of PlatformIO displayed in the terminal.
 
-#### Usage
+![](https://cdn.littleor.cn/assert/202310261431419.png)
+
+### Usage
 
 Once PlatformIO is installed, you can start using it to manage your projects. Here's a brief overview of the key
 features and how to use them:
@@ -151,7 +91,7 @@ features and how to use them:
 1. Create a new project: To create a new project, navigate to the desired directory in your terminal or command prompt
    and run the following command:
 
-```
+```bash
 pio init --board <board_name>
 ```
 
@@ -160,7 +100,7 @@ PlatformIO will generate a new project structure for you.
 
 2. Build and upload code: To build and upload your code to the development board, run the following command:
 
-```
+```bash
 pio run -t upload
 ```
 
@@ -168,7 +108,7 @@ This command will compile your code, verify it, and upload it to the board.
 
 3. Monitor serial output: To monitor the serial output from your development board, run the following command:
 
-```
+```bash
 pio device monitor
 ```
 
@@ -178,21 +118,68 @@ This command will open a serial terminal, allowing you to view and interact with
    options, compiler flags, and libraries. You can modify these settings in the `platformio.ini` file located in your
    project directory.
 
-#### Conclusion
+### Conclusion
 
 PlatformIO is a versatile and user-friendly tool that simplifies the development process for IoT and embedded systems
 projects. Its extensive support for various boards and microcontrollers, combined with its powerful features, make it an
 excellent choice for developers working on diverse projects. Give PlatformIO a try and experience the benefits it offers
 for your next embedded systems project.
 
-## Arduino Output
+## Water Light Program
 
-> We will come as soon as possible.
+### Introduction
 
-## Arduino Input
+We use the Arduino IDE to write the program, and the program is uploaded to the development board through the USB cable.
+And we will present the program in the form of a video, the lights will display one after another.
 
-> We will come as soon as possible.
+### Preview
 
-## Arduino IoT
+#### TinkerCAD
 
-> We will come as soon as possible.
+![](https://cdn.littleor.cn/assert/202310261459008.png)
+
+#### Video
+
+<div style={{
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
+  }}>
+    <ReactPlayer width="100%" height="auto"  controls url="https://cdn.littleor.cn/assert/202310261459879.mp4" />
+</div>
+
+### Code
+
+```cpp
+#include "Arduino.h"
+
+#define BUTTON_PIN 2
+#define FIRST_LED_PIN 8
+#define LED_NUM 6
+
+boolean state = LOW;
+
+void setup() {
+    pinMode(BUTTON_PIN, INPUT);
+    for (int i = FIRST_LED_PIN; i < FIRST_LED_PIN + LED_NUM; i++) {
+        pinMode(i, OUTPUT);
+    }
+}
+
+void loop() {
+    if (digitalRead(BUTTON_PIN) == HIGH) {
+        state = !state;
+    }
+    
+    if (state == HIGH) {
+        for (int i = FIRST_LED_PIN; i < FIRST_LED_PIN + LED_NUM; i++) {
+            for (int j = FIRST_LED_PIN; j < FIRST_LED_PIN + LED_NUM; j++) {
+                digitalWrite(j, LOW);
+            }
+            digitalWrite(i, HIGH);
+            delay(1000);
+        }
+    }
+}
+```
