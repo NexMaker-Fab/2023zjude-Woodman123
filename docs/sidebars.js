@@ -23,7 +23,7 @@ const sidebars = {
         {
             type: 'category', label: 'Daily Works', items: [
                 'works/website',
-                // 'works/cad',
+                'works/cad',
                 {
                     type: 'category', label: 'Arduino', items: [
                         'works/arduino/presentation',
