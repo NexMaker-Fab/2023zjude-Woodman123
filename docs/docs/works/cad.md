@@ -4,6 +4,12 @@ title: CAD
 
 # CAD
 
+## Preview
+
+<iframe width="100%" style={{
+"minHeight": "640px"
+}} src="https://myhub.autodesk360.com/ue28cacf9/g/shares/SH512d4QTec90decfa6e788217d4915a3310"/>
+
 import ReactPlayer from "react-player"
 
 ## 1 Build design project
@@ -33,7 +39,10 @@ import ReactPlayer from "react-player"
 * The specific model components and division of labor are shown in the figure below, and different parts have been
   distinguished by color.
   ![Fig 1](https://cdn.littleor.cn/assert/design-engineering/2-8.png)
-  link: [Fig 10](https://a360.co/3Mzg0XT)
+
+<iframe width="100%" style={{
+"minHeight": "640px"
+}} src="https://myhub.autodesk360.com/ue28cacf9/g/shares/SH512d4QTec90decfa6e788217d4915a3310"/>
 
 #### 2.2 Model drawing procedure
 
@@ -122,7 +131,6 @@ import ReactPlayer from "react-player"
   }}>
     <ReactPlayer width="720px" height="480px"  controls url="https://cdn.littleor.cn/assert/design-engineering/making%20steps%20video.mp4" />
 </div>
-
 
 ## 3 Simple parameter design practice
 
