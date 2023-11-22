@@ -32,8 +32,8 @@ const sidebars = {
                         'works/arduino/iot',
                         // 'works/arduino',
                     ]
-                }
-
+                },
+                'works/cnc',
             ],
         },
         {
