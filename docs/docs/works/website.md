@@ -50,14 +50,25 @@ But today we use the domain name provided by Tencent Cloud.
 
 1. Install Node.js and npm on local machine if we haven't already.
 
-2. Create a new Next.js project:
+```bash
+# For mac we use `brew` to install Node.js and npm
+brwe install node
+```
+
+![NODE](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3dScreenshot%202024-01-02%20at%2013.55.49.png)
+
+2. Create a new [Next.js](https://nextjs.org/) project:
 
    ```bash
    npx create-next-app my-website
    cd my-website
    ```
+   ![Creat](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3dScreenshot%202024-01-02%20at%2013.52.37.png)
 
-3. Start building website by customizing the pages and components. We can refer to Next.js documentation for guidance.
+   ![Creat](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3dScreenshot%202024-01-02%20at%2013.54.09.png)
+
+3. Start building website by customizing the pages and components. We can refer
+   to [Next.js documentation](https://nextjs.org/docs) for guidance.
 
 4. When website is ready, use the following command to build a production-ready version:
 
@@ -65,9 +76,9 @@ But today we use the domain name provided by Tencent Cloud.
    yarn build
    ```
 
-5. Deploy Next.js website to Tencent Cloud VM using a service like Nginx or PM2.
+5. Deploy Next.js website to Tencent Cloud VM using a service like Nginx or PM2. (See the Step 6)
 
-6. Configure Nginx to serve website and set up SSL using Let's Encrypt for HTTPS.
+6. Configure Nginx to serve website and set up SSL using Let's Encrypt for HTTPS. (See the Step 6)
 
 ## Step 5: Building Knowledge Base with Docusaurus
 
@@ -140,3 +151,77 @@ applications.
 
 With these steps, we should have successfully built, deployed, and configured official website and knowledge base using
 Next.js and Docusaurus, hosted on Tencent Cloud, and accessible via custom domain.
+
+## More detail
+
+### The fold and file relationship
+
+We used the `monorepo` mode (all code in one repository) to manage the project, and the project structure is as follows:
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021402993.png)
+
+The `docs` folder is the documentation folder, which is used to store the documentation of the project. The `homepage`
+folder is the official website folder, which is used to store the official website of the project.
+
+### How to run git
+
+We install `git` with `brew` on the mac, and then we can use the `git` command to manage the code.
+
+```bash
+# install git
+brew install git
+```
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021632906.png)
+
+And we clone the code to the local machine with the `git clone` command.
+
+```bash
+git clone git@github.com:NexMaker-Fab/2023zjude-Woodman123.git
+cd 2023zjude-Woodman123
+```
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021632028.png)
+
+Then we can use the `git` command to manage the code, here are some common commands examples:
+
+```bash
+# check the status of the code
+git status
+# add the code to the stage
+git add .
+# commit the code
+git commit -m "feat: add the code"
+# push the code to the remote repository
+git push
+```
+
+### How to add picture
+
+As we deploy the website on the Tencent Cloud, and we use our domain name to access the website, so we upload the
+picture to the Aliyun OSS, and then we use the picture link to show the picture on the website.
+
+First of all, we get the `AccessKey` and `AccessKeySecret` from the Aliyun OSS, and then we use the `PicGo` to upload
+the picture to the Aliyun OSS:
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021635293.png)
+
+After we upload the picture to the Aliyun OSS, we can get the picture link, and we use the format to use:
+
+```markdown
+![Image Caption](Image URL)
+```
+
+### How to write the first document
+
+As we use the `monorepo` mode to manage the project, so we need to write the document in the `docs` folder, and we use
+the Markdown to write the document.
+
+First of all, we need to create a new folder in the `docs` folder, which called `docs/docs`, and we write
+a `about/team.md` file in the `docs/docs` folder, and we use the following format to write the document:
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021637303.png)
+
+With write the document, we can use `yarn build` to build the document, and we can use `yarn start` to start the website:
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021638887.png)
