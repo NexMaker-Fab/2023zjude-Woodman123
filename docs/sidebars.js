@@ -36,6 +36,7 @@ const sidebars = {
                 },
                 'works/cnc',
                 'works/3D',
+                'works/laser',
             ],
         },
         {
