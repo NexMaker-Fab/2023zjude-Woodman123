@@ -253,6 +253,10 @@ void iotLoop() {
 
 ```
 
+#### Final Result
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021858504.png)
+
 ### Develop our Control Website
 
 We use Python to develop our control website, and we use the [NiceGUI](https://nicegui.io/) to develop the UI.

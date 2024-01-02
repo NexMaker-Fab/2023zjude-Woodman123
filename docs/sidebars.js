@@ -30,6 +30,7 @@ const sidebars = {
                         'works/arduino/basic',
                         'works/arduino/output',
                         'works/arduino/iot',
+                        'works/arduino/comparison',
                         // 'works/arduino',
                     ]
                 },
