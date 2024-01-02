@@ -84,10 +84,32 @@ import ReactPlayer from "react-player"
    ![Fig 1](https://cdn.littleor.cn/assert/design-engineering/2-3.png)
    ![Fig 1](https://cdn.littleor.cn/assert/design-engineering/2-4.png)
 3. Hollow structure design to reduce weight
-   ![Fig 1](https://cdn.littleor.cn/assert/design-engineering/2-5.png)
+   ![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021947170.png)
    ![Fig 1](https://cdn.littleor.cn/assert/design-engineering/2-6.png)
 4. Round the corners
    ![Fig 1](https://cdn.littleor.cn/assert/design-engineering/2-7.png)
+
+###### 2.2.6 Practice for Automated Modeling
+
+It is hoped that a drive wheel can be built quickly by Automated Modeling
+
+1. Build the outer ring of the wheel
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021948439.png)
+
+2. Establish the inner ring (hexagon) of the wheel to facilitate the formation of the connection
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021949823.png)
+
+3. Use Automated Modeling
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021949470.png)
+
+4. Click to confirm the entity generation
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021950758.png)
+
+- Supplement: Although the generated results are not directly used, the design of our transmission wheel provides important ideas
 
 #### 2.3 Assemble and establish connections
 
