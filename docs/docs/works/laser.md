@@ -137,6 +137,10 @@ Determine the cutting line and perform cutting.
 
 ![81101704185227_.pic.jpg](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d861643028f4545cc4a4c657e04c449b77ca5bc1b.jpg)
 
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401031854692.jpg)
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401031854691.jpg)
+
 ### Combination With Arduino
 
 To integrate laser cutting with Arduino, we utilize laser cutting to finalize the spherical casing of the product.
