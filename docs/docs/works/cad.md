@@ -109,7 +109,8 @@ It is hoped that a drive wheel can be built quickly by Automated Modeling
 
 ![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021950758.png)
 
-- Supplement: Although the generated results are not directly used, the design of our transmission wheel provides important ideas
+- Supplement: Although the generated results are not directly used, the design of our transmission wheel provides
+  important ideas
 
 #### 2.3 Assemble and establish connections
 
@@ -168,8 +169,9 @@ It is hoped that a drive wheel can be built quickly by Automated Modeling
   ![Fig 1](https://cdn.littleor.cn/assert/design-engineering/3-2.png)
 * Set the chamfer side length to 1/4 of the short side.
   ![Fig 1](https://cdn.littleor.cn/assert/design-engineering/3-3.png)
-* The final results are presented here.
+* The final results are presented here, and all of our parameters and their expressions in this section
   ![Fig 1](https://cdn.littleor.cn/assert/design-engineering/3-4.png)
+  ![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401031952550.png)
 
 ## 4 Test contact set/motion link and show GIF
 
