@@ -56,7 +56,7 @@ For this project, we utilize the following hardware components:
 * **Jumper Wires**: Jumper wires are used to establish connections between the ESP32 and others, allowing for flexible
   and reliable electrical connections.
 
-![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401021716861.png)
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401030952883.png)
 
 ![](https://cdn.littleor.cn/assert/202310251127002.png)
 
