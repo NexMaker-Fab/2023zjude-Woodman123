@@ -24,6 +24,7 @@ challenges.
    polyimide, behave differently under a laser, with some producing harmful fumes or requiring specific laser settings.
 
     - **Acrylic** offers excellent cutting and engraving results without harmful fumes.
+
     - **Polycarbonate** and **ABS** can produce heavy smoke or toxic gases, making them less ideal for laser cutting.
 
       ![OIP.jpeg](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d277486ffd0ec2d072b051015607349132117ddbd.jpeg)
@@ -125,7 +126,6 @@ actual situation.
 
 Determine the cutting line and perform cutting.
 
-
 <div style={{
     display: "flex",
     justifyContent: "center",
@@ -139,9 +139,13 @@ Determine the cutting line and perform cutting.
 
 ### Combination of laser cutting and Arduino
 
-Due to a shortage of printing materials, we sought a vendor on Taobao for laser cutting the casing. The casing is
-currently in transit, and we will present it during the update. Below are photos of our base and ESP32.
+To integrate laser cutting with Arduino, we utilize laser cutting to finalize the spherical casing of the product.
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401031048468.jpg)
+
+The base of this product is obtained through 3D printing, and the ESP32-WROOM-32D is secured on the base, with the
+casing encasing it from above.
 
 ![88001704193412_.pic.jpg](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3dc83224899c615f03e54bcc8ad5c6c9b6ca0de139.jpg)
 
-![88011704193413_.pic.jpg](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d6b5d64d98c51446baeb290c5dc075fd6c5dceb42.jpg)
+The picture displays our assembled product.
