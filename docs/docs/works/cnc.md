@@ -1,5 +1,5 @@
 ---
-title: CNC
+title: CNC Machine    
 ---
 
 # CNC(Computer Numerical Control)
@@ -9,9 +9,10 @@ machine tools for machining operations. It is widely used in industrial manufact
 efficiency and flexibility in machining processes. In this chapter, the principles, applications, advantages, and use
 cases of CNC technology in different industries will be introduced in
 detail.
-> 参考文献: 
+
+> Reference:
 > * [https://techtarget.com/searcherp/definition/computer-numerical-control-CNC](https://techtarget.com/searcherp/definition/computer-numerical-control-CNC)
-> * [https://en.wikipedia.org/wiki/Numerical_control](https://en.wikipedia.org/wiki/Numerical_control) 
+> * [https://en.wikipedia.org/wiki/Numerical_control](https://en.wikipedia.org/wiki/Numerical_control)
 
 ## I.Principles and basic concepts of CNC technology
 
@@ -125,7 +126,7 @@ etc. through CNC technology.
 
 #### CNC Turning Machine
 
-数控车床适用于加工旋转对称的工件，例如轴类零件、螺纹零件等。CNC技术使得数控车床能够控制刀具在工件上进行精确的切削操作。通过CNC技术，数控车床可以实现自动化的车削过程，包括外圆车削、内圆车削、螺纹加工等。
+CNC lathe is suitable for processing rotating symmetrical workpieces, such as shaft parts and threaded parts. CNC technology enables the CNC lathe to control the tool for precise cutting operations on the workpiece. Through CNC technology, the CNC lathe can achieve automated turning processes, including external turning, internal turning, and thread machining.
 
 #### CNC Drilling Machine
 
