@@ -10,7 +10,7 @@ Laser cutting is a versatile process used for cutting a wide range of materials,
 challenges.
 
 1. **Woods**: Different types of woods like hardwood, softwood, plywood, MDF, veneer, paper, and cardboard are commonly
-   used. Each type has unique properties affecting laser cutting, like density, resin content, and presence of glues​.
+   used. Each type has unique properties affecting laser cutting, like density, resin content, and presence of glues.
 
     - **Hardwoods** like cherry, walnut, and oak have high fiber density and produce more smoke.
     - **Softwoods** like balsa and pine have lower fiber density and produce less smoke.
@@ -30,30 +30,30 @@ challenges.
       ![OIP.jpeg](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d277486ffd0ec2d072b051015607349132117ddbd.jpeg)
 
 3. **Metals**: Laser cutting metal requires high-powered lasers. Different metals like steel, aluminum, and others can
-   be cut, but the process can produce fumes and requires specific types of lasers and settings​.
+   be cut, but the process can produce fumes and requires specific types of lasers and settings.
 
 4. **Fabrics**: Fabrics like cotton, nylon, polyester, and silk can be laser cut. Synthetic fabrics produce sealed
-   edges, while natural fabrics may have frayed edges requiring additional finishing​.
+   edges, while natural fabrics may have frayed edges requiring additional finishing.
 
 5. **Leather**: Both natural and synthetic leathers can be laser cut. However, synthetic leathers with vinyl content
    should be avoided due to toxic fume release.
 
 6. **Glass**: Glass is challenging to laser cut due to its brittle nature and transparency. Special techniques, like
-   covering with a damp paper towel, are used to minimize the risk of fractures​.
+   covering with a damp paper towel, are used to minimize the risk of fractures.
 
 7. **Paper**: Laser cutting paper, including cardstock and corrugated cardboard, is relatively easy but can be prone to
-   catching fire, resulting in charred edges​.
+   catching fire, resulting in charred edges.
 
 When it comes to materials that should be avoided in laser cutting, there are several key types due to their hazardous
 nature:
 
 1. **PVC and Vinyl**: Produces chlorine gas and hydrochloric acid fumes, harmful to both the operator and the
-   equipment​.
-2. **ABS Plastic**: Emits toxic cyanide gas and tends to melt​.
-3. **Polycarbonate**: Prone to discoloration and catching fire​​.
+   equipment.
+2. **ABS Plastic**: Emits toxic cyanide gas and tends to melt.
+3. **Polycarbonate**: Prone to discoloration and catching fire.
 4. **Polystyrene and Polypropylene Foam**: Catch fire easily and generally melt instead of cutting.
-5. **HDPE**: Tends to melt and catch fire​.
-6. **Coated Carbon Fiber**: Releases toxic gases when cut​.
+5. **HDPE**: Tends to melt and catch fire.
+6. **Coated Carbon Fiber**: Releases toxic gases when cut.
 
 ## Laser Cutting Design Rules and Cuts
 
@@ -137,7 +137,7 @@ Determine the cutting line and perform cutting.
 
 ![81101704185227_.pic.jpg](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d861643028f4545cc4a4c657e04c449b77ca5bc1b.jpg)
 
-### Combination of laser cutting and Arduino
+### Combination With Arduino
 
 To integrate laser cutting with Arduino, we utilize laser cutting to finalize the spherical casing of the product.
 
@@ -149,3 +149,6 @@ casing encasing it from above.
 ![88001704193412_.pic.jpg](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3dc83224899c615f03e54bcc8ad5c6c9b6ca0de139.jpg)
 
 The picture displays our assembled product.
+
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401031125056.jpg)
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401031125057.jpg)
