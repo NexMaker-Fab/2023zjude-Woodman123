@@ -157,3 +157,14 @@ The picture displays our assembled product.
 ![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401031849642.jpg)
 ![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401031849643.jpg)
 ![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401031849644.jpg)
+
+### Assembly video
+
+<div style={{
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
+  }}>
+    <ReactPlayer width="70%"  controls url="https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/3d202401032048220.mp4" />
+</div>
