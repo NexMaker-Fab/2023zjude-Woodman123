@@ -41,7 +41,7 @@ const sidebars = {
             ],
         },
         {
-            type: 'category', label: 'Projects', items: [
+            type: 'category', label: 'Final Project', items: [
                 'projects/final'
             ],
         }

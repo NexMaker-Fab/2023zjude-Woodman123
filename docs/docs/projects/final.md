@@ -1,29 +1,50 @@
 ---
-title: Final Project
+title: Project Introduction
 ---
 
-# Fragrance In Sight: AI Customized Perfume 
+# Emotion Link: Bridging Distances with the Language of Lights
 
-Fragrance In Sight is an interactive art installation project that aims to create personalized perfumes based on visual style recognition. This article provides an overview of the project's background, motivation, and technical architecture.
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/202401091932015.png)
 
-## Background
+In a world where distances often create barriers in emotional connectivity, Emotion Link emerges as a beacon of
+innovation, illuminating the unspoken words of our hearts. This pioneering product in the realm of Internet of Things (
+IoT) leverages the simplicity of lighting to convey complex emotions, connecting people beyond the confines of physical
+spaces.
 
-Recent advances in artificial intelligence (AI) and computer vision have opened up new possibilities for connecting different senses and experiences. The Fragrance In Sight project explores how AI algorithms can link visual information with olfactory cognition to generate individualized perfumes.
+## The Concept
 
-## Motivation
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/202401091930110.png)
 
-The project is motivated by the idea that smells elicit powerful memories and emotions. Linking scents to visual elements like clothing styles provides a novel way to express and share olfactory experiences. The goal is to construct richer, more holistic olfactory cognition's by combining vision, AI, and customized scents.
+Emotion Link is an IoT-enabled ambient light, designed to transcend the boundaries of traditional communication. By
+allowing User A to express emotions through a web interface on their smartphone, these feelings are then translated into
+specific light patterns on User B's Emotion Link device. This interactive feature not only conveys emotions but also
+invites User B to respond by simply tapping the lamp, creating a tangible sense of connection.
 
-## Technical Architecture
+## A Spectrum of Emotions
 
-At a high level, the system incorporates three main technical components:
+![](https://bosiden-pop.oss-cn-hangzhou.aliyuncs.com/pattern/other/other/202401091929600.png)
 
-- Computer vision module that analyzes clothing style from user photos
-- AI model that matches clothing features to perfume notes
-- Mechanical device that blends oils to produce personalized scents
+Emotion Link is not just a lamp; it is a palette of feelings. With a variety of preset light colors, each hue
+communicates a distinct emotion:
 
-By connecting these modules, the system can recognize a person's visual style and transform it into a tailored multisensory experience.
+* Red: Symbolizing passion, energy, love, danger, and urgency. Red can increase heart rate and alertness, making it a
+  common choice in environments requiring quick response.
+* Blue: Reflecting calmness, trust, stability, and professionalism. Known for its relaxing properties, blue is
+  frequently used in medical and financial sectors to convey trust and security.
+* Green: Associated with nature, growth, tranquility, and health. Green is linked with restoration and calmness, aiding
+  in stress and anxiety reduction.
+* Yellow: Denoting happiness, vitality, creativity, and sunshine. A bright color that uplifts spirits, though excessive
+  yellow may induce restlessness.
+* Orange: Relating to energy, warmth, enthusiasm, and sociability. Orange stimulates positive emotions and fosters
+  social interactions.
+* Purple: Evoking luxury, mystery, creativity, and spirituality. Often connected with royalty and nobility, purple
+  imparts a sense of elegance.
 
-## Conclusion
+## Advanced Interaction through LLM
 
-Fragrance In Sight explores innovative applications of AI at the intersection of senses and cognition. By generating personalized perfumes from visual inputs, the project aims to create novel individualized experiences that link smell, sight, and technology.
+Taking interaction to the next level, Emotion Link integrates Large Language Models (LLMs) for emotion recognition. A
+simple shake of the lamp allows users to issue voice commands like “turn pink”. The device captures these commands
+through its microphone, sending them to a server where the LLM interprets and returns the corresponding color to the
+lamp. Furthermore, it supports emotional recognition; a user saying “I am tired” prompts the LLM to select a soothing
+color to comfort them.
+
